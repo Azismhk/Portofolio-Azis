@@ -19,19 +19,53 @@
     </nav>
 
     <section class="hero" id="home">
-        <div>
-            <p> HELLO, I'M</p>
-            <h1> Azis Muhammad Khoirunafi</p>
-            <img src="images/foto-saya.jpeg" class="foto-profil">
-            <h2> Graphic Designer & Web Developer</h2>
-            <p>
-                Saya sedang belajar Teknik Informatika
-                dan mengembangkan kemampuan desain serta coding.
-            </p>
 
-            <a href="#portofolio" class="hero-button">Lihat Portofolio</a>
+    <div class="slider">
+
+        <div class="slide active">
+            <img src="images/foto-saya 2.jpeg" alt="Foto Azis">
+            <div class="slide-content">
+                <p>HELLO, I'M</p>
+                <h1>Azis Muhammad Khoirunafi</h1>
+                <h2>Graphic Designer & Web Developer</h2>
+                <p>Saya sedang belajar Teknik Informatika dan mengembangkan kemampuan desain serta coding.</p>
+                <a href="#portofolio" class="hero-button">Lihat Portofolio</a>
+            </div>
         </div>
-    </section>
+
+        <div class="slide">
+            <img src="images/foto-saya 3.jpeg" alt="Foto Azis">
+            <div class="slide-content">
+                <p>WELCOME TO MY PORTFOLIO</p>
+                <h1>Creative Designer</h1>
+                <h2>Design • Coding • Creativity</h2>
+                <a href="#about" class="hero-button">Tentang Saya</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/foto-saya 4.jpeg" alt="Foto Azis">
+            <div class="slide-content">
+                <p>LET'S CREATE</p>
+                <h1>My Creative Journey</h1>
+                <h2>Graphic Design & Web Development</h2>
+                <a href="#contact" class="hero-button">Hubungi Saya</a>
+            </div>
+        </div>
+
+        <button class="slider-btn prev" onclick="geserSlide(-1)">❮</button>
+        <button class="slider-btn next" onclick="geserSlide(1)">❯</button>
+
+        <div class="dots">
+            <span class="dot active" onclick="slideKe(0)"></span>
+            <span class="dot" onclick="slideKe(1)"></span>
+            <span class="dot" onclick="slideKe(2)"></span>
+        </div>
+
+    </div>
+
+</section>
+
 
 
     <header>
